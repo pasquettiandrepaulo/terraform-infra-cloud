@@ -1,6 +1,6 @@
-resource "kubectl_manifest" "namespace" {
-    depends_on = [ aws_eks_cluster.cluster ]
-    yaml_body = <<YAML
+resource "kubectl_manifest" "namespace1" {
+  depends_on = [aws_eks_cluster.cluster]
+  yaml_body  = <<YAML
 apiVersion: v1
 kind: Namespace
 metadata:

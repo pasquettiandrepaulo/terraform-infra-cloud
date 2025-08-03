@@ -1,5 +1,5 @@
 resource "kubectl_manifest" "deploy" {
-  depends_on = [kubectl_manifest.namespace]
+  depends_on = [kubectl_manifest.namespace1]
   yaml_body  = <<YAML
 apiVersion: apps/v1
 kind: Deployment
