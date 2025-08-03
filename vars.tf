@@ -14,7 +14,8 @@ variable "tags" {
   default = {
     Name = "fiap-terraform-aula-subnets"
     School = "FIAP",
-    Envirnoment = "Develop"
+    Envirnoment = "Develop",
+    Year = "2025"
   }
 }
 
