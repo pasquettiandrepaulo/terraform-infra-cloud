@@ -13,6 +13,8 @@ variable "cdr_vpc" {
 variable "tags" {
   default = {
     Name = "fiap-terraform-aula-subnets"
+    School = "FIAP",
+    Envirnoment = "Development"
   }
 }
 
